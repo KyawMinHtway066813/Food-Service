@@ -40,6 +40,7 @@ section{
     font-size: 3.5rem;
     padding: 1rem;
     color: #666;
+    margin-bottom: 3rem;
 }
 
 .heading span{
@@ -171,7 +172,7 @@ header .navbar a:hover{
 .speciality .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .speciality .box-container .box{
@@ -198,7 +199,7 @@ header .navbar a:hover{
     padding: 2rem;
 }
 
-.speciality .box-container .box .content img{
+.speciality .box-container .box .content i{
     margin: 1.5rem 0;
 }
 
@@ -219,6 +220,40 @@ header .navbar a:hover{
 
 .speciality .box-container .box:hover .content{
     transform: translateY(100%);
+}
+
+.popular .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.popular .box-container .box{
+    padding: 2rem;
+    background: #fff ;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+    border: 1rem solid rgba(0,0,0,.3);
+    border-radius: .5rem;
+    text-align: center;
+    flex-wrap: 1 1 30rem;
+    position: relative;
+}
+
+.popular .box-container .box img{
+    height: 25rem;
+    object-fit: cover;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.popular .box-container .box .price{
+    position: absolute;
+    top:3rem; left: 3rem;
+    background: var(--red);
+    color: #fff;
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
 }
 
 @media(max-width:991px){
