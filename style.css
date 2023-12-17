@@ -482,8 +482,12 @@ header .navbar a:hover{
     }
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
     html{
         font-size: 50%;
+    }
+
+    .order .row form .inputBox input{
+        width: 100%;
     }
 }
